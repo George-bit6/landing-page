@@ -63,7 +63,8 @@ footer {
 
 }
 
-.sign-up {
+.sign-up-1,
+.sign-up-2 {
 
     background-color: #3882F6;
     border-radius: 5px;
@@ -81,7 +82,7 @@ footer {
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
-    margin-bottom: 72px;
+
 }
 
 .content-info {
@@ -116,6 +117,7 @@ footer {
     background-color: #E5E7EB;
     padding: 64px; 
     flex-wrap: wrap;
+    margin-top: 72px;
 
 }
 
@@ -134,6 +136,40 @@ footer {
     font-size: large;
     font-weight: bolder;
 }
+
+/* Call To Attention */
+
+.sign-up-block {
+    display: flex;
+    width: 400px;
+    padding: 20px 28px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 1px auto;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    margin: 72px auto;
+}
+
+.sign-up-2 {
+    border: 2px solid #F9FAF8;
+}
+
+.big-text {
+
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.small-text {
+
+    font-size: 12px;
+}
+
+/* footer */
+
 li {
 
     list-style: none;
