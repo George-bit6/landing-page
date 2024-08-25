@@ -81,6 +81,7 @@ footer {
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .content-info {
@@ -106,7 +107,33 @@ footer {
 
 /*  Quote */
 
+.quote-section {
 
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 64px; 
+    flex-wrap: wrap;
+
+}
+
+.quote {
+
+    width: 500px;
+    font-size: x-large;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.reference {
+    width: 700px;
+    align-self: end;
+    font-size: large;
+    font-weight: bolder;
+}
 li {
 
     list-style: none;
