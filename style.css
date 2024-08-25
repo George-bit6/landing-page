@@ -170,6 +170,16 @@ footer {
 
 /* footer */
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 24px;
+    color: #F9FAF8;
+
+}
+
 li {
 
     list-style: none;
